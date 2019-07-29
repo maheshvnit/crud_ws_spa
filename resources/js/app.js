@@ -29,6 +29,11 @@ window.Vue = require('vue');
 //*
 
 Vue.component(
+    'client-users',
+    require('./components/clientuser/Clientusers.vue').default
+);
+
+Vue.component(
     'passport-clients',
     require('./components/passport/Clients.vue').default
 );

@@ -200,11 +200,25 @@
     </div>
     </div>
 
+    <script  type="text/javascript">
+    
+        //const __base_url = "{{ config('app.url') }}";
+
+        const __base_url = "http://127.0.0.1:8000/";
+    
+
+        const __bearer_token = "{{ config('constant.bearer_token') }}";
+    
+    </script>    
+
 
     <!-- Scripts -->
     <?php /*
     <script src="{{ asset('js/app.js') }}" defer></script>
     */ ?>
+
     <script src="{{ mix('js/app.js') }}" type="text/javascript"></script>
+
+
 </body>
 </html>

@@ -19,6 +19,9 @@
                         CRUD SPA
                     </div>
 
+                    <div>
+                        <client-users></client-users>                 
+                    </div>
 
                 </div>
             </div>
