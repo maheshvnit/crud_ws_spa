@@ -1,9 +1,14 @@
 # crud_ws_spa
 Laravel Passport based Web Service / APIs for CRUD SPA using VueJS
+
 REST APIs / Web services : Used Laravel Framework 
+
 Used Laravel Framework for it
+
 So LAMP required to run this system.
+
 Also used Voyager : a Laravel Admin Package that includes BREAD(CRUD) operations, a media manager, menu builder, and much more.
+
 https://laravelvoyager.com/ 
 https://github.com/the-control-group/voyager
 
